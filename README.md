@@ -62,6 +62,8 @@ The following task is advanced and therefore optional.
 
 Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo.
 
+ https://emily-keymon.github.io/plotly-challenge/
+
 ## Hints
 
 * Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
