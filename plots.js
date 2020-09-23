@@ -1,23 +1,27 @@
+// Step 1:  Plotly
+
+// Use d3 library to read in samples.json file
 function buildMetadata(sample) {
   d3.json("samples.json").then((data) => {
     var metadata = data.metadata;
+
     // Filter the data for the object with the desired sample number
     var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
     var result = resultArray[0];
+    
     // Use d3 to select the panel with id of `#sample-metadata`
     var PANEL = d3.select("#sample-metadata");
 
     // Use `.html("") to clear any existing metadata
     PANEL.html("");
 
+    // Display each key-value pair from the metadata
     // Use `Object.entries` to add each key and value pair to the panel
-    // Hint: Inside the loop, you will need to use d3 to append new
-    // tags for each key-value in the metadata.
-    Object.entries(result).forEach(([key, value]) => {
+     Object.entries(result).forEach(([key, value]) => {
       PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
 
-    // BONUS: Build the Gauge Chart
+    // Build the Gauge Chart - from bonus.js file
     buildGauge(result.wfreq);
   });
 }
@@ -56,6 +60,7 @@ function buildCharts(sample) {
 
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
 
+    // Build a horizontal bar chart
     var yticks = otu_ids.slice(0, 10).map(otuID => `OTU ${otuID}`).reverse();
     var barData = [
       {
@@ -64,20 +69,24 @@ function buildCharts(sample) {
         text: otu_labels.slice(0, 10).reverse(),
         type: "bar",
         orientation: "h",
-      }
+        marker: {
+            color: 'rgba(200,0,0,1)'}
+        }
     ];
 
     var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
-      margin: { t: 30, l: 150 }
-    };
+      margin: { t: 30, l: 150 },
+
+      };
 
     Plotly.newPlot("bar", barData, barLayout);
   });
 }
 
+// Display the sample metadata, i.e., an individual's demographic information
 function init() {
-  // Grab a reference to the dropdown select element
+  // Select a reference to the dropdown select element
   var selector = d3.select("#selDataset");
 
   // Use the list of sample names to populate the select options
@@ -98,6 +107,8 @@ function init() {
   });
 }
 
+
+// Update all the plots any time a new sample is selected
 function optionChanged(newSample) {
   // Fetch new data each time a new sample is selected
   buildCharts(newSample);

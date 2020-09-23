@@ -7,28 +7,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron" style="background-color:#5ede02">
+        <h1 style = "color:white">Belly Button Biodiversity Dashboard</h1>
+        <h3 style = "color:rgba(200, 0, 0, 1)">This interactive dashboard explores a dataset which catalogs the microbes that colonize human navels.
+          The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs,
+          in the study) were present in more than 70% of people, while the rest were relatively rare.</h3>
+        <p style = "color:white">Choose a Test Subject ID Number below to explore the interactive charts</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
-          <h5>Test Subject ID No.:</h5>
+        <div class="well" style = "background-color: #5ede02">
+          <h5 style = "color: white">Test Subject ID Number:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
+        <div class="panel panel-primary" style = "background-color: #5ede02">
+          <div class="panel-heading" style = "background-color: rgba(200, 0, 0, 1)">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="sample-metadata" class="panel-body" style = "color:white"></div>
         </div>
       </div>
       <div class="col-md-5">
