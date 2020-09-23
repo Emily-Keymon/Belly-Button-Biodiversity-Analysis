@@ -1,4 +1,5 @@
 # Plot.ly Homework - Belly Button Biodiversity
+ Website:  https://emily-keymon.github.io/plotly-challenge/
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
@@ -58,17 +59,6 @@ The following task is advanced and therefore optional.
 
 ![Weekly Washing Frequency Gauge](Images/gauge.png)
 
-## Deployment
-
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo.
-
- https://emily-keymon.github.io/plotly-challenge/
-
-## Hints
-
-* Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
-
-* Refer to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
 
 ### About the Data
 
