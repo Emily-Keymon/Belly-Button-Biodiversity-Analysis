@@ -66,7 +66,7 @@ function buildCharts(sample) {
         type: "bar",
         orientation: "h",
         marker: {
-            color: 'rgba(200,0,0,1)'}
+            color: 'rgba(250,0,0,1)'}
         }
     ];
 
