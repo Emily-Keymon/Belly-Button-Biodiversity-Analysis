@@ -1,6 +1,6 @@
 ## Website:  https://emily-keymon.github.io/plotly-challenge/
 
-![screenshot](https://user-images.githubusercontent.com/64673015/94213390-3d98d180-fe9c-11ea-8d27-3cab34c3f0fc.PNG)
+![screenshot](https://user-images.githubusercontent.com/64673015/94349818-d69b2a00-000d-11eb-8c6b-a94bed937a13.PNG)
 
 # Plot.ly Homework - Belly Button Biodiversity
 
