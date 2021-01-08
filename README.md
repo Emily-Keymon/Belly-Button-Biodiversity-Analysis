@@ -1,8 +1,10 @@
+# Belly Button Biodiversity Analysis
+The goal of this project was to use JavaScript to present interactive visualizations of belly button biodiversity data within a web page. Since the baseline data was provided in JSON format, D3 was used to import and process the data, while Plotly was used to generate the required visualizations.
+
 ## Website:  https://emily-keymon.github.io/Belly-Button-Biodiversity-Analysis/
 
 ![screenshot](https://user-images.githubusercontent.com/64673015/94349818-d69b2a00-000d-11eb-8c6b-a94bed937a13.PNG)
 
-# Plot.ly Homework - Belly Button Biodiversity
 
 In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
 
