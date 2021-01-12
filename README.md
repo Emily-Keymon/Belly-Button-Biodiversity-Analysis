@@ -7,9 +7,9 @@ The goal of this project was to use JavaScript to present interactive visualizat
 
 ---
 ## Tools Used
-* PyCharm - Python IDE
+* PyCharm 
 * HTML/CSS/Bootstrap
-* Python - Plotly, JavaScript
+* JavaScript = Plotly, D3
 
 ## Website:  https://emily-keymon.github.io/Belly-Button-Biodiversity-Analysis/
 
