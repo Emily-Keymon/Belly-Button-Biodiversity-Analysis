@@ -11,6 +11,10 @@ The goal of this project was to use JavaScript to present interactive visualizat
 * HTML/CSS/Bootstrap
 * JavaScript = Plotly, D3
 
+---
+## Tasks
+
+
 ## Website:  https://emily-keymon.github.io/Belly-Button-Biodiversity-Analysis/
 
 ![screenshot](https://user-images.githubusercontent.com/64673015/94349818-d69b2a00-000d-11eb-8c6b-a94bed937a13.PNG)
