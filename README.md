@@ -15,9 +15,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 ## Tasks
 
 
-## Website:  https://emily-keymon.github.io/Belly-Button-Biodiversity-Analysis/
 
-![screenshot](https://user-images.githubusercontent.com/64673015/94349818-d69b2a00-000d-11eb-8c6b-a94bed937a13.PNG)
 
 
 In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
@@ -54,12 +52,14 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 6. Update all of the plots any time that a new sample is selected.
 
-Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
+---
+## Results
+## Website:  https://emily-keymon.github.io/Belly-Button-Biodiversity-Analysis/
 
-![hw](Images/hw02.png)
+![screenshot](https://user-images.githubusercontent.com/64673015/94349818-d69b2a00-000d-11eb-8c6b-a94bed937a13.PNG)
 
+---
 ### About the Data
-
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
 - - -
