@@ -6,6 +6,10 @@ The goal of this project was to use JavaScript to present interactive visualizat
 * http://robdunnlab.com/projects/belly-button-biodiversity/
 
 ---
+## Tools Used
+* PyCharm - Python IDE
+* HTML/CSS/Bootstrap
+* Python - Plotly, JavaScript
 
 ## Website:  https://emily-keymon.github.io/Belly-Button-Biodiversity-Analysis/
 
