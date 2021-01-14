@@ -9,7 +9,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 ## Tools Used
 * PyCharm 
 * HTML/CSS/Bootstrap
-* JavaScript = Plotly, D3
+* JavaScript - Plotly, D3
 
 ---
 ## Tasks
