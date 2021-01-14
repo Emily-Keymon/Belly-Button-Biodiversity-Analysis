@@ -9,7 +9,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 ## Tools Used
 * PyCharm 
 * HTML/CSS/Bootstrap
-* JavaScript - Plotly, D3
+* JavaScript = Plotly, D3
 
 ---
 ## Tasks
@@ -29,6 +29,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 13. Used the first sample from the list to build the initial plots.
 14.  Updated all the plots any time a new sample is selected.
 15.  Initialized the dashboard.
+16.  Created HTML file for dashboard deployment.
 
 ---
 ## Results
@@ -41,3 +42,4 @@ The goal of this project was to use JavaScript to present interactive visualizat
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
 - - -
+
