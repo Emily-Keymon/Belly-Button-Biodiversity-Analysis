@@ -13,18 +13,16 @@ The goal of this project was to use JavaScript to present interactive visualizat
 
 ---
 ## Tasks
-### Extract Data, Create Dashboard
+### Create Dashboard
 1.  Used D3 library to read in samples.json file.
 2.  Filtered the data for the object with the desired sample number.
 3.  Used D3 to select the panel with id of `#sample-metadata`.
 4.  Cleared any existing metadata.
 5.  Displayed each key-value pair from the metadata.
-
-### Create Visualizations 
-1.  Built bubble chart.
-2.  Plotted bubble chart.
-3.  Built horizontal bar chart.
-4.  Plotted horizontal bar chart.
+6.  Built bubble chart.
+7.  Plotted bubble chart.
+8.  Built horizontal bar chart.
+9.  Plotted horizontal bar chart.
 
 ###  Create Dashboard
 1.  Displayed the sample metadata, i.e., an individual's demographic information.
