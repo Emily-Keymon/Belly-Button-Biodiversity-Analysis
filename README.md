@@ -20,7 +20,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 4.  Cleared any existing metadata.
 5.  Displayed each key-value pair from the metadata.
 
-### Created Visualizations
+### Create Visualizations 
 1.  Built bubble chart.
 2.  Plotted bubble chart.
 3.  Built horizontal bar chart.
