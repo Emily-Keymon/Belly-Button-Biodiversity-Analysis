@@ -29,6 +29,9 @@ The goal of this project was to use JavaScript to present interactive visualizat
 ###
 1.  Displayed the sample metadata, i.e., an individual's demographic information.
 2.  Selected a reference to the dropdown select element.
+3.  Used the list of sample names to populate the select options.
+4.  Used the first sample from the list to build the initial plots.
+5.  
 
 
 5. Display each key-value pair from the metadata JSON object somewhere on the page.
