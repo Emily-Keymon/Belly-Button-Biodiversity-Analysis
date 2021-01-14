@@ -13,7 +13,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 
 ---
 ## Tasks
-### Data Extraction
+### Extract Data, Create Dashboard
 1.  Used D3 library to read in samples.json file.
 2.  Filtered the data for the object with the desired sample number.
 3.  Used D3 to select the panel with id of `#sample-metadata`.
