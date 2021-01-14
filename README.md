@@ -13,7 +13,7 @@ The goal of this project was to use JavaScript to present interactive visualizat
 
 ---
 ## Tasks
-### Create Dashboard
+### Create Dashboard with D3 and Plotly
 1.  Used D3 library to read in samples.json file.
 2.  Filtered the data for the object with the desired sample number.
 3.  Used D3 to select the panel with id of `#sample-metadata`.
